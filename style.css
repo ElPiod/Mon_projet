@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* les caracteristiques a change */
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover{
+    transition: 0.4s;
+    color: gray;
+}
+.navbar-nav .nav-link:focus{
+    display: none;
+}
+.form-group .form-control:focus{
+    border-color: black;
+}
+
+/* Nav */
+.search{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.search:hover input{
+    width: 150px;
+}
+.search input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.search a .fa{
+    color: black;
+}
+.search:hover a .fa{
+    color: black;
+}
+
+/* Home_wrapper */
+.home_wrapper{
+    background-image: url(images/bgi2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+}
+.home_wrapper .h4{
+    font-family: "Dancing script";
+    padding-top: 200px;
+    animation: welcome 5s ease-in-out;
+}
+.footer1{
+    margin-top: 110px;
+}
+a p:hover{
+    color: black;
+}
+
+
+/* Partie Men */
+/* sec_1 */
+.sec_1{
+    background-image: url(images/man3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1450px;
+}
+.sec_1 .men_text,
+.sec_wn1 .women_text{
+    font-family: "Dancing script";
+    padding-top: 20px;
+    animation: welcome 5s ease-in-out;
+}
+.sec_1 .btn:focus{
+    box-shadow: none;
+    outline: none;
+}
+.sec_1 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: whitesmoke;
+    color: black;
+}
+.sec_1 .btn{
+    background-color: #cf9b2f;
+    border: none;
+}
+
+/* Partie Women */
+/* sec_women */
+.sec_wn1{
+    background-image: url(images/bgi3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    height: 1600px;
+
+}
+.sec_wn1 .row .btn:focus{
+    background-color: #fff;
+}
+.footer3{
+    margin-top: 68px;
+}
+
+/* Partie Cosrmetics */
+.sec_cs{
+    background-image: url(images/bgi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    height: auto;
+}
+.sec_cs .carousel-inner .w-75{
+    margin: auto;
+}
+/* temoign */
+.sec_tm{
+    background-image: url(images/man2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+.sec_tm .card{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+/* Partie Contact */
+.sec_ctc{
+    background-image: url(images/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 520px;
+}
+
+.icons .icon .fa{
+    font-size: 70px;
+}
+.icons .icon .fa:hover{
+    color: black;
+}
+.text_fa{
+    text-align: center;
+    font-size: 20px;
+    margin-left: -30px;
+}
+.footer{
+    margin-top: 100px;
+}
+/* Page inscription */
+.sorry{
+    animation: sorry 2s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+@keyframes welcome{
+    0%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+
+@keyframes sorry{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: scale(1.1);
+        color: red
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

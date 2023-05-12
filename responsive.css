@@ -1,0 +1,122 @@
+/* Responsive Phone */
+@media screen and (max-width: 567px){
+
+    /* Page Home */
+    .home_wrapper{
+        background-position: center;
+    }
+    .inscription .modal{
+        margin-top: 100px;
+    }
+    .sorry{
+        font-size: 12px;
+    }
+    .btn1{
+        font-size: 10px;
+    }
+
+    /* Page Men */
+    .sec_1{
+        background-position: center;
+        height: auto;
+    }
+    .sec_1 .row,
+    .sec_wn1 .row{
+        gap: 10px;
+    }
+    /* Womem */
+
+    /* Partie Cosrmetics */
+    .sec_cs{
+        height: 840px;
+    }
+    .sec_cs .carousel-inner{
+        position: relative;
+        top: 80px;
+    }
+    .foot{
+        margin-top: 40px;
+    }
+    /* Temoign */
+    .sec_tm .card{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    /* Contact */
+    .sec_ctc{
+        background-position: center;
+        height: auto;
+    }
+    .sec_ctc .footer{
+        margin-top: 0px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .icons .icon .fa{
+        font-size: 100px;
+        margin: auto;
+        
+    }
+    .text_fa{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+
+    
+    
+}
+
+
+/* Responsive tablette */
+@media screen and (max-width: 768px){
+
+    /* Page Home */
+    .home_wrapper{
+        background-position: center;
+    }
+    .footer1{
+        position: relative;
+        top: 160px;
+    }
+
+    /* Page Men */
+    .sec_1,
+    .sec_wn1{
+        background-position: center;
+        height: auto;
+    }
+    /* temoign */
+    .sec_tm .card{
+        margin-left: 0px;
+    }
+
+    
+}
+@media only screen and (max-width: 767px){
+
+    /* Page Home */
+    .home_wrapper{
+        background-position: center;
+        height: 600px;
+    }
+    .search:hover input{
+        width: 100%;
+    }
+
+    /* Page Men */
+    .sec_1,
+    .sec_wn1{
+        background-position: center;
+        height: auto;
+    }
+    /* temoign */
+    .card_ml{
+        margin-left: 0px;
+    }
+
+}
+/* Page inscription */
