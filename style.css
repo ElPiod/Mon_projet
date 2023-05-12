@@ -84,7 +84,7 @@ a p:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 1450px;
+    height: auto;
 }
 .sec_1 .men_text,
 .sec_wn1 .women_text{
@@ -113,7 +113,7 @@ a p:hover{
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment: fixed;
-    height: 1600px;
+    height: auto;
 
 }
 .sec_wn1 .row .btn:focus{
@@ -175,6 +175,9 @@ a p:hover{
 .sorry{
     animation: sorry 2s ease-in-out infinite;
 }
+.fashion{
+    animation: fashion 3s ease infinite;
+}
 
 
 
@@ -214,6 +217,18 @@ a p:hover{
     50%{
         transform: scale(1.1);
         color: red
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes fashion{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: scale(1.1);
+        color: white;
     }
     100%{
         transform: translateX(0%);
